@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Supermercado+One&display=swap');
+
+body {
+    background-color: #ded;
+}
+p {
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    /* "vw" sets  */
+    font-size: 4vw;
+    /* line below name */
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgba(90, 124, 117, 0.562);
+
+    /* width of two images and two margins */
+    /* (22.5 * 2) + (1.25 * 2) = 47.5  */
+    margin: auto;
+    width: 47.5%;
+}
+img {
+    /* 22.5 * 4 = 90 */
+    width: 22.5%;
+    /* 1.25 * 8 = 10 */
+    margin: 1.25%;
+    /* The Float CSS Property places an element on the left or right side of its container/parent element allowing text or Inline/inline-block elemets to wrap around it. The element removed normal document flow. Also removes space between img elements (mystery space). */
+    float: left;
+}
